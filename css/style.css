@@ -1,0 +1,364 @@
+.header .wrapper
+ {
+	width:100%;
+    margin:auto;	
+ }
+ 
+  .banner .wrapper
+ {
+	width:80%;
+    margin:auto;	
+ }
+ .postings .wrapper
+ {
+	 width:90%;
+	 margin:auto;	
+ }
+ .categories .wrapper
+ {
+	 width:90%;
+	 margin:auto;	
+ }
+ .browse-city .wrapper
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .information .wrapepr
+ {
+	  width:100%;
+	 margin:auto;
+ }
+ .header
+ {
+	 justify-content:space-around;
+	 height:80px;
+ }
+ .header .header-fc 
+ {
+	 display:flex;
+ }
+ .header .header-fc .home
+ {
+	 text-align:center;
+	 background-color:#cddc39;
+	 width:50%;
+	 height:80px;
+ }
+ .header .header-fc .navi
+ {
+	 text-align:center;
+	 background-color:mediumpurple;
+	 width:50%;
+	 height:80px;
+ }
+ 
+ .banner 
+{
+	text-align:center;
+	height:400px;
+	width:100%;
+	background-color:black;
+	margin:auto;
+}
+.banner .banner-fc 
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+.banner .banner-fc .boxa
+{
+	height:100px;
+	width:30%;
+	background-color:#009688;
+    margin-top:150px;
+
+}
+ .banner .banner-fc .boxb
+{
+	height:100px;
+	width:30%;
+	margin-top:150px;
+	background-color:#009688;
+}
+ .postings
+ {
+	 background-color:lightgreen;
+	 height:800px;
+	 text-align:center;
+ }
+ .postings .postings-fc
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+	 margin:auto;
+ }
+ .postings .postings-fc .boxa
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxb
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxc
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxd
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .postings .postings-fc .boxe
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .postings .postings-fc .boxf
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .postings .postings-fc .boxg
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxh
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxi
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxj
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxk
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .postings .postings-fc .boxl
+ {
+	background-color:yellow;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .categories
+ {
+	 background-color:darkblue;
+	 height:600px;
+	 text-align:center;
+ }
+ .categories .categories-fc
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+	 margin:auto;
+ }
+ .categories .categories-fc .boxa
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .categories .categories-fc .boxb
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .categories .categories-fc .boxc
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .categories .categories-fc .boxd
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .categories .categories-fc .boxe
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .categories .categories-fc .boxf
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+  .categories .categories-fc .boxg
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .categories .categories-fc .boxh
+ {
+	background-color:silver;
+	height:200px;
+	width:22%;
+	margin-top:30px;
+ }
+ .browse-city
+ {
+	 text-align:center;
+	 background-color:white;
+	 height:500px;
+ }
+ .browse-city .browse-city-fc
+ {
+	 display:flex;
+	 justify-content:space-between;
+	 margin:auto;
+ }
+ .browse-city .browse-city-fc .boxa
+ {
+	 margin-top:50px;
+	 height:350px;
+	 width:22%;
+	 background-color:#ff5722;
+ }
+ .browse-city .browse-city-fc .boxb
+ {
+	 margin-top:50px;
+	 height:350px;
+	 width:22%;
+	 background-color:#ff5722;
+ }
+ .browse-city .browse-city-fc .boxc
+ {
+	 margin-top:50px;
+	 height:350px;
+	 width:22%;
+	 background-color:#ff5722;
+ }
+ .browse-city .browse-city-fc .boxd
+ {
+	 margin-top:50px;
+	 height:350px;
+	 width:22%;
+	 background-color:#ff5722;
+ }
+ .apps
+{
+	text-align:center;
+	height:400px;
+	background-color:gray;
+	margin:auto;
+}
+.apps .apps-fc 
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+.apps .apps-fc .boxa
+{
+	height:100px;
+	width:30%;
+	background-color:#009688;
+    margin-top:150px;
+
+}
+ .apps .apps-fc .boxb
+{
+	height:100px;
+	width:30%;
+	margin-top:150px;
+	background-color:#009688;
+}
+.information
+{
+	background-color:lightpink;
+	height:500px;
+	text-align:center;
+}
+.information .information-fc 
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.information .information-fc .boxa
+{
+	margin-top:90px;
+height:300px;
+width:15%;
+background-color:lightblue;
+}
+.information .information-fc .boxb
+{
+	margin-top:90px;
+height:300px;
+width:15%;
+background-color:lightblue;
+}
+.information .information-fc .boxc
+{
+	margin-top:90px;
+height:300px;
+width:15%;
+background-color:lightblue;
+}
+.information .information-fc .boxd
+{
+	margin-top:90px;
+height:300px;
+width:15%;
+background-color:lightblue;
+}
+.information .information-fc .boxe
+{
+	margin-top:90px;
+height:300px;
+width:15%;
+background-color:lightblue;
+}
